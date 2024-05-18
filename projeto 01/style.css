@@ -49,7 +49,6 @@ img{
 .descricao > *{
     display: block;
 }
-
 #descricao-topico{
     background-color: var(--primario);
     font-weight: 800;
@@ -65,10 +64,8 @@ img{
     margin-bottom: 15px;
     font-weight: 800;
 }
-a{
+a,a:visited{
     text-decoration: none;
-}
-a:visited{
     color: var(--cor3);
 }
 a:active{
