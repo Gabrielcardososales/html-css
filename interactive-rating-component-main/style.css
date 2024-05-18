@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --primario: hsl(25, 97%, 53%);
+    --cor1: hsl(0, 0%, 100%);
+    --cor2: hsl(217, 12%, 63%);
+    --cor3: hsl(216, 12%, 54%);
+    --cor4: hsl(213, 19%, 18%);
+    --cor5: hsl(216, 12%, 8%);
+    --padrao:"Overpass", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--padrao);
+    background-color: var(--cor5);
+}
+span,p{
+    font: normal 400 15px;
+    color: var(--cor3);
+}
+section{
+    padding: 20px;
+    background-color: var(--cor4);
+    display: block;
+    border-radius: 16px;
+    margin: 30px auto 0px;
+    max-width: 370px;
+}
+.opcoes > button{
+    margin-inline: auto;
+    margin-right: 10px;
+    
+}
+.figura{
+    width: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.informacao > h1{
+   margin: 20px 0px 10px; 
+}
+h1{
+    color: #ffffff;
+    font-weight: 700px;
+}
