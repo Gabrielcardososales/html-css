@@ -28,12 +28,12 @@ article{
 }
 @media (max-width: 375px) {
     body{
-        padding: 30px;
+        padding: 25px;
     }
     article{
         max-width: 260px;
     }
-  }
+}
 p{
     color: var(--cor2);
     line-height: 25px;
@@ -43,25 +43,36 @@ img{
     width: 100%;
 }
 .descricao{
-    margin: 20px 0px 15px;
+    margin: 16.3px 0px 15px;
     border-radius: 10px;
 }
 .descricao > *{
     display: block;
 }
-#descricao-data{
-    margin-top: 10px;
-}
+
 #descricao-topico{
     background-color: var(--primario);
     font-weight: 800;
     border-radius: 5px;
-    width: 65px;
-    padding: 8px;
+    width: 60px;
+    padding: 4px 12px;
+    font-size: 15px;
+}
+#descricao-data{
+    margin-top: 10px;
 }
 .informacoes > h1{
     margin-bottom: 15px;
     font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: var(--cor3);
+}
+a:active{
+    color: var(--primario);
 }
 .perfil{
     margin-top: 15px;
