@@ -20,7 +20,7 @@ article{
     border-radius: 25px;
     background-color: var(--cor1);
     display: block;
-    margin: 80px auto 10px;
+    margin: 80px auto;
     padding: 1.5em;
     color: var(--cor3);
     max-width: 310px;
@@ -78,6 +78,7 @@ a:active{
 #perfil-avatar{
     position: relative;
     top: 10px;
+    left: 5px;
     border-radius: 50%;
     width: 30px;
 }
